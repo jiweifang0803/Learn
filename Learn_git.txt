@@ -5,4 +5,15 @@
 	git config user.email   	// 查看
 	git config --global user.name "name"		// 配置
 	git config --global user.email "email@email.com"	// 配置
-	
+3、gitHub 创建新的仓库
+4、git 添加远程仓库
+	git remote add <自己起个远程仓库名，一般使用 origin> <仓库地址(https://github.com/<github用户名>/<仓库名>.git)>
+	git remote -v 	// 查看远程仓库信息
+5、生成token （注意需要读写内容的权限）
+6、关联本地仓库和远程仓库
+	git remote set-url <自己起的远程仓库名（origin）> https://<token>@github.com/<github用户名>/<gitHub仓库名>.git
+7、提交到远程仓库
+	git push -u <自己起的远程仓库名> <分支名（master）>
+8、解除关联
+	git remote rm <自己起的远程仓库名>
+
