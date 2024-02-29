@@ -1,0 +1,8 @@
+1、创建版本库：
+	git init 
+2、配置用户名和邮箱（以前配置过就不用在配置了）
+	git config user.name	// 查看
+	git config user.email   	// 查看
+	git config --global user.name "name"		// 配置
+	git config --global user.email "email@email.com"	// 配置
+	
